@@ -18,6 +18,8 @@ Ivory(象牙)是一个实用，高效和可重用的PHP语言工具包。帮助�
 - 加密&解密
 - 其他工具包：文件、网络、随机、验证器等
 
+文档：[https://naroat.github.io/ivory/](https://naroat.github.io/ivory/)
+
 ## 安装
 
 版本要求：
