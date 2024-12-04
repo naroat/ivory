@@ -1,8 +1,7 @@
 <div align=center>
 <img src="./docs/assets/images/logo-512x512.png" width="200" height="200"/>
 
-<h2>Ivory</h2>
-
+<br/>
 ![PHP version](https://img.shields.io/badge/php-%3E%3D7.2-blue)
 ![Composer version](https://img.shields.io/badge/composer-%3E%3D2.0-orange)
 [![License](https://img.shields.io/badge/license-MIT-ddodger.svg)](https://github.com/naroat/ivory/blob/main/LICENSE)
