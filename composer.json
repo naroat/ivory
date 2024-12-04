@@ -1,0 +1,23 @@
+{
+    "name": "naroat/ivory",
+    "description": "php工具库",
+    "keywords": ["php", "helper", "util", "package", "kit", "ivory"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Naroat\\Ivory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "naroat",
+            "email": "taoran0796@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
