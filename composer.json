@@ -1,7 +1,7 @@
 {
     "name": "naroat/ivory",
-    "description": "php工具库",
-    "keywords": ["php", "helper", "util", "package", "kit", "ivory"],
+    "description": "Ivory是一个实用、高效和可重用的PHP语言工具包。帮助开发者更加高效地开发PHP应用。",
+    "keywords": ["php", "helper", "util", "package", "kit", "ivory", "library"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
