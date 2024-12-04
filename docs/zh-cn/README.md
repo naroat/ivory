@@ -1,11 +1,47 @@
-# Ivory是什么
+## Ivory是什么？
 
-ivory是php语言工具库
+Ivory(象牙)是一个实用，高效和可重用的PHP语言工具包。帮助开发者更加高效地开发PHP应用。Ivory包含的工具包括:
+- 字符串和数组处理
+- 日期&时间
+- 加密&解密
+- 其他工具包：文件、网络、随机、验证器等
 
-# 贡献指南
+## 安装
 
-- issue 仅用于提交 Bug 或 Feature 以及设计相关的内容，其它内容可能会被直接关闭。
+版本要求：
+- PHP >= 7.2
+- composer >= 2.0
 
-- 在提交 issue 之前，请搜索相关内容是否已被提出。
+安装:
+```shell
+composer require naroat/ivory
+```
 
-- 请说明 Lancet 和 Go 的版本号，并提供操作系统信息。推荐使用 Go Playground 生成在线 demo，这能够更直观地重现问题。
+## 使用
+
+示例：求两个日期之间相差的天数：
+```php
+$startDate = '2024-10-03';
+$endDate = '2024-12-10';
+$res = \Naroat\Ivory\DateTime\DateTime::dateDiff($startDate, $endDate);
+var_dump($res);
+//output:
+//int(68)
+```
+
+示例：私隐化邮箱示例
+
+```php
+$res = \Naroat\Ivory\Str\Str::hideEmail('foo123456@bar.com');
+var_dump($res);
+//output: "foo***@bar.com"
+
+$res = \Naroat\Ivory\Str\Str::hideEmail('foo123456@bar.com', '---@');
+var_dump($res);
+//output: "foo---@bar.com"
+```
+
+## 更多
+
+更多特性请参考[API](zh-cn/api/string.md).
+

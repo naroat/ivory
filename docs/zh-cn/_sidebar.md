@@ -1,6 +1,6 @@
 * 介绍
-  * [Ivory是什么?](/zh-cn/README.md)
-  * [开始](/zh-cn/start.md)
+  * [快速开始](/zh-cn/README.md)
+  * [贡献指南](/zh-cn/CONTRIBUTION.md)
 
 * API
   * [字符串](/zh-cn/api/string.md)
