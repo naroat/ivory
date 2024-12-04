@@ -8,9 +8,6 @@
 ![Composer version](https://img.shields.io/badge/composer-%3E%3D2.0-orange)
 [![License](https://img.shields.io/badge/license-MIT-ddodger.svg)](https://github.com/naroat/ivory/blob/main/LICENSE)
 
-<br/>
-
-
 </div>
 
 ## Ivory是什么？
