@@ -1,7 +1,6 @@
 <div align=center>
 <img src="./docs/assets/images/logo-512x512.png" width="200" height="200"/>
 
-<div style="font-size: 40px; font-weight: bold;">Ivory</div>
 <br/>
 
 ![PHP version](https://img.shields.io/badge/php-%3E%3D7.2-blue)
