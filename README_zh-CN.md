@@ -1,4 +1,4 @@
-English | [中文](./README_zh-CN.md)
+[English](./README.md) | 中文
 
 <div align=center>
 <img src="./docs/assets/images/logo-512x512.png" width="200" height="200"/>
@@ -12,33 +12,30 @@ English | [中文](./README_zh-CN.md)
 
 </div>
 
-## What is Ivory?
+## Ivory是什么？
 
-Ivory is a practical, efficient and reusable PHP function toolkit. Help developers develop PHP applications more efficiently. The tools included in Ivory are:
-- String
-- Array
-- Data & Time
-- Cryptor
-- File
-- Network
-- validator
+Ivory(象牙)是一个实用，高效和可重用的PHP语言工具包。帮助开发者更加高效地开发PHP应用。Ivory包含的工具包括:
+- 字符串和数组处理
+- 日期&时间
+- 加密&解密
+- 其他工具包：文件、网络、随机、验证器等
 
-Documentation：[https://naroat.github.io/ivory/](https://naroat.github.io/ivory/)
+文档：[https://naroat.github.io/ivory/](https://naroat.github.io/ivory/)
 
-## Installation
+## 安装
 
-Version requirements：
+版本要求：
 - PHP >= 7.2
 - composer >= 2.0
 
-Installation:
+安装:
 ```shell
 composer require naroat/ivory
 ```
 
-## Use
+## 使用
 
-Example: Find the number of days between two dates：
+示例：求两个日期之间相差的天数：
 ```php
 $startDate = '2024-10-03';
 $endDate = '2024-12-10';
@@ -48,7 +45,7 @@ var_dump($res);
 //int(68)
 ```
 
-Example: Example of a private email
+示例：私隐化邮箱示例
 
 ```php
 $res = \Naroat\Ivory\Str\Str::hideEmail('foo123456@bar.com');
@@ -60,7 +57,7 @@ var_dump($res);
 //output: "foo---@bar.com"
 ```
 
-## More
+## 更多
 
-For more features, please refer to [API](zh-cn/api/string.md).
+更多特性请参考[API](zh-cn/api/string.md).
 
